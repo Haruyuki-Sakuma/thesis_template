@@ -12,4 +12,4 @@ main.dvi: *.tex
 	mv tmp.dvi main.dvi
 
 clean:
-	rm -f *.aux *.log *.dvi *.bbl *.blg *.ilg *.idx *.toc *.ind tmp.*
+	rm -f *.aux *.pdf *.log *.dvi *.bbl *.blg *.ilg *.idx *.toc *.ind tmp.*
